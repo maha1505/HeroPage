@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import myImage from "../image/myImage.jpg";
 import Button from "../components/Button";
-import "../styles/Home.css"; // Updated import ✅
+import "../styles/Home.css";
 
 function Home() {
   const [text, setText] = useState("Initial State");
