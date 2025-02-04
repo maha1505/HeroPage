@@ -4,10 +4,10 @@ import Button from "../components/Button";
 import "../styles/Home.css";
 
 function Home() {
-  const [text, setText] = useState("Initial State");
+  const [text, setText] = useState("Learn More!");
 
   const updateText = () => {
-    setText("Updated State");
+    setText("Learned!");
   };
 
   return (
@@ -18,8 +18,6 @@ function Home() {
       <img src={myImage} alt="My Image" className="home-image" />
 
       <div className="button-group">
-        <Button text="Updated Button" />
-        <Button text="Sample Button" />
         <Button text={text} onClick={updateText} />
       </div>
     </div>
